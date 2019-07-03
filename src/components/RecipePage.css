@@ -1,0 +1,56 @@
+.main-div {
+  background-image: linear-gradient(#ffe259, #ffa751, #ffe259);
+  background-color: #b8b8b8;
+}
+
+.image-div {
+  position: relative;
+  width: 100%;
+  height: 30%;
+  scroll-behavior: smooth;
+  opacity: 0.7;
+}
+.vl {
+  border-left: 1px solid rgb(83, 83, 83);
+  height: 20px;
+  display: inline;
+  float: left;
+}
+.centered {
+  font-size: x-large;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.ing-list {
+  display: inline;
+}
+h1,
+li,
+.title {
+  font-family: "Mina";
+}
+
+li {
+  text-align: center;
+}
+.title {
+  /* background-color: #d8bfd8; */
+
+  font-size: 20px;
+}
+li {
+  list-style-type: none;
+  font-size: 18px;
+}
+.list {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.inline {
+  display: inline;
+  float: left;
+}

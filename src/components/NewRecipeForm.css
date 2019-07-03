@@ -1,0 +1,74 @@
+.main-div-form {
+  text-align: center;
+  position: relative;
+  scroll-behavior: smooth;
+
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/my-recipe-c2755.appspot.com/o/steakForm.jpg?alt=media&token=f870dc9c-1082-45e8-abda-e82aebd52049");
+  color: rgb(253, 253, 253);
+  height: 150vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-form {
+  margin: auto;
+}
+.phone-display {
+  position: relative;
+  scroll-behavior: smooth;
+  background: rgb(88, 1, 105);
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/my-recipe-c2755.appspot.com/o/steakForm.jpg?alt=media&token=f870dc9c-1082-45e8-abda-e82aebd52049");
+  color: rgb(255, 255, 255);
+  height: 150vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: linear-gradient(#ffe259, #ffa751, #ffe259);*/
+}
+.imgWebForm {
+  width: 100%;
+  height: 100%;
+}
+div.imgusercWebForm {
+  /* float: right; */
+  margin: auto;
+  width: 35%;
+  height: 35%;
+  min-width: 150px;
+  min-height: 100px;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+}
+div.useretWebForm {
+  font-family: mynewFont;
+  right: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.247);
+  top: 50%;
+  color: white;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.pinkBtnWebForm {
+  border: none;
+  background-color: #66046e;
+  color: #fff;
+  text-decoration: none;
+  padding: 2% 3%;
+  font-size: 120%;
+  /* display: inline-block; */
+  border-radius: 100px;
+  transition: all 0.2s;
+  /* font-family: mynewFont; */
+  cursor: pointer;
+  /* margin: 3%;
+  margin-bottom: 5%; */
+  outline: none;
+}
+textarea {
+  resize: both;
+  overflow: auto;
+}

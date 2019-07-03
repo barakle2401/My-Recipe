@@ -1,0 +1,15 @@
+.backGroundColor {
+  background-image: linear-gradient(#ffe259, #ffa751, #ffe259);
+  /* background-image: linear-gradient(#434343, #000000, #434343); */
+}
+.elements {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.elementsWeb {
+  max-width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

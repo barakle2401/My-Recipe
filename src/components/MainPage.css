@@ -1,0 +1,135 @@
+/* @font-face {
+  font-family: mynewFont;
+  src: url(../font/taamula-bold-aaa.otf);
+} */
+
+.header {
+  height: 95vh;
+  font-family: mynewFont;
+  position: relative;
+  scroll-behavior: smooth;
+  background: gray;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/my-recipe-c2755.appspot.com/o/knife.jpg?alt=media&token=eae2d46b-d864-4471-86ff-2546ec610722");
+
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.textBox {
+  color: #fff;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.headerText {
+  backface-visibility: hidden;
+  margin-bottom: 120px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.headerTextPrimary {
+  display: block;
+  font-size: 10vh;
+  font-weight: 400;
+  letter-spacing: 7px;
+
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.headerTextSub {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 7px;
+
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.btns {
+  width: 100%;
+  margin: auto;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.7);
+}
+
+button.greenBtn {
+  background-color: #ebff7b;
+  color: rgb(97, 97, 97);
+  text-decoration: none;
+  padding: 2% 3%;
+  font-size: 180%;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+  font-family: mynewFont;
+  border: none;
+  cursor: pointer;
+  margin: 3%;
+  margin-bottom: 5%;
+  outline: none;
+}
+
+button.pinkBtn {
+  border: none;
+  background-color: #2aff2a;
+  color: rgb(97, 97, 97);
+  text-decoration: none;
+  padding: 2% 3%;
+  font-size: 180%;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+  font-family: mynewFont;
+  cursor: pointer;
+  margin: 3%;
+  margin-bottom: 5%;
+  outline: none;
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
