@@ -1,4 +1,5 @@
-### My Recipe is a web app that i developed for my own use
+### Recipe web app, add new recipe, view all recipes
+### Technologies: React js , Fire -base 
 ##### status - still in development
 
 
