@@ -1,6 +1,6 @@
 ### Recipe web app, add new recipe, view all recipes
-### Technologies: React js , Fire -base 
-##### status - still in development
+### Technologies: React js , Firebase 
+##### status - under development
 
 
 
